@@ -35,7 +35,7 @@ class Assignment:
         self.main(path)
 
     def test(self):
-        result = self.main(self.test_path)
+        result = self.main1(self.test_path)
         print(f"Test result:   {result}")
 
     def first(self):
